@@ -1,0 +1,195 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+	.title-content {
+		font-size: 30px;
+		text-align: center;
+	}
+	.header {
+		display: block;
+	}
+	.header__menu {
+		cursor: pointer;
+		float: right;
+		display: inline-block;
+	}
+
+	.header__menu .menu-close {
+		display: none;
+		transition: 0.5s ease-in-out;
+	}
+
+	.header__nav {
+		width: 100%;
+		max-height: 468px;
+		clear: both;
+		padding-top: 12px;
+	}
+
+	.header__nav .list {
+		flex-direction: column;
+		width: 100%;
+		gap: 0px;
+		display: none;
+		animation: topToBot 0.3s;
+	}
+
+	.list.show {
+		display: flex;
+	}
+
+	/* Slider */
+
+	.slider {
+		flex-direction: column;
+	}
+
+	.slider--intro {
+		margin-bottom: 30px;
+	}
+
+	.slider--intro--title {
+		display: block;
+	}
+
+	.slider--intro--title h1 {
+		font-size: 30px;
+		text-align: center;
+	}
+	.wave-emoji img {
+		width: 50%;
+	}
+
+	.slider--intro--description {
+		margin: 15px 0;
+		font-size: 18px;
+		line-height: normal;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.social-link {
+		font-size: 30px;
+	}
+
+	.slider__action {
+		justify-content: space-evenly;
+	}
+	.slider__gif {
+		width: 70%;
+	}
+	.main-btn {
+		margin: 0;
+	}
+
+	/* Content Responsive */
+	/* Programming */
+	.programming {
+		flex-flow: column-reverse;
+		justify-content: center;
+	}
+
+	.programming--img img {
+		display: block;
+		margin: 0 auto;
+		width: 70%;
+	}
+
+	.programming--content {
+		text-align: center;
+	}
+
+	.programming--content h2 {
+		font-size: 30px;
+		font-weight: 400;
+	}
+	.programming--content > p {
+		font-size: 18px;
+		font-weight: 400;
+		color: var(--text-gray);
+	}
+	.programming--icon i {
+		font-size: 40px;
+		transition: 0.2s ease-in-out;
+		cursor: pointer;
+	}
+	.subtitle {
+		text-align: left;
+		margin: 19px 0;
+		color: var(--text-gray);
+		font-size: 16px;
+	}
+
+	/* Proficiency */
+	.proficiency {
+		flex-direction: column;
+		gap: 48px;
+	}
+	.proficiency--content {
+		width: 100%;
+	}
+	.proficiency--content h2 {
+		text-align: center;
+	}
+	.proficiency--img {
+		display: none;
+	}
+
+	/* list-exp */
+	.list-exp-card {
+		flex-direction: column;
+	}
+	.exp-card {
+	}
+	.list-project {
+	}
+	.project-card {
+		margin-top: 12px;
+		max-width: 350px;
+	}
+	.education-card {
+		text-align: center;
+		flex-direction: column;
+	}
+	.education--logo {
+		margin: 0;
+	}
+	.school-name {
+		font-size: 24px;
+		font-weight: 600;
+	}
+	.major-name {
+		font-size: 16px;
+		font-weight: 600;
+	}
+	.time {
+		font-size: 16px;
+		font-weight: 400;
+	}
+	.subcription {
+		font-size: 18px;
+		font-weight: 400;
+	}
+	.education--info ul {
+		font-size: 18px;
+		list-style: circle;
+		color: var(--text-gray);
+	}
+
+	/* Contact */
+	.contact {
+		flex-direction: column;
+		text-align: center;
+	}
+	.list-social {
+		justify-content: center;
+	}
+	.contact-img {
+		display: none;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 992px) {
+}
