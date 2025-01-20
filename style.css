@@ -339,13 +339,13 @@ a i {
 	width: 80%;
 }
 .process:nth-child(2) .process-bar::after {
-	width: 60%;
-}
-.process:nth-child(3) .process-bar::after {
 	width: 70%;
 }
+.process:nth-child(3) .process-bar::after {
+	width: 60%;
+}
 .process:nth-child(4) .process-bar::after {
-	width: 50%;
+	width: 80%;
 }
 
 /* Education */
@@ -409,7 +409,7 @@ a i {
 	margin: 0;
 	padding: 0;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
 	grid-gap: 1rem 1rem;
 	gap: 1rem 1rem;
 }
